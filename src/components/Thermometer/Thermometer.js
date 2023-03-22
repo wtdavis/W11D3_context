@@ -13,9 +13,7 @@ function Thermometer() {
       <div className="actual-temp">Actual Temperature: {temperature}°F</div>
       <ReactSlider
         value={temperature}
-        // desiredTemp = {temperature}
         onAfterChange={ (val) => {setTemperature(val)} }
-        
         className="thermometer-slider"
         thumbClassName="thermometer-thumb"
         trackClassName="thermometer-track"
