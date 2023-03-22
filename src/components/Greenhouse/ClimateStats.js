@@ -1,7 +1,7 @@
 import './ClimateStats.css';
 
-function ClimateStats() {
 
+function ClimateStats() {
   return (
     <div className="climate-stats">
       <div className="temperature">

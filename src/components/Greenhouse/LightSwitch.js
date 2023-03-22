@@ -10,7 +10,7 @@ function LightSwitch() {
     e.preventDefault()
     // console.log(e.target.id)
     setThemeName(e.target.id)
-    alert (`changing themes to ${e.target.id}`)
+    // alert (`changing themes to ${e.target.id}`)
   }
 
   return (
