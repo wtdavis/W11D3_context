@@ -14,5 +14,5 @@ export const ClimateProvider = (props) => {
     </ClimateContext.Provider>
   );
 };
-
+// debugger
 export const useClimate = () => useContext(ClimateContext);
